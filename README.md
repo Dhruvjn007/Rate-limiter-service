@@ -97,7 +97,7 @@ you should try again).
 
 ## Status
 
-🚧 Core sliding-window logic and Redis integration are implemented and
+Core sliding-window logic and Redis integration are implemented and
 working. Possible next steps: per-route limits (instead of one global
 limit), API-key-based identification instead of IP, and a Lua script to
 make the pipeline fully atomic under heavier concurrency.
